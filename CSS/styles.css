@@ -2,6 +2,7 @@ body {
   background-color: aquamarine;
   min-height: 100vh;
   margin: 0;
+  text-align: center;
 }
 
 #footer {
@@ -9,4 +10,72 @@ body {
   bottom: 0;
   width: 100%;
   height: 2.5rem;
+}
+h1 {
+  background-color: rgb(117, 218, 174);
+  color: rgb(61, 48, 144);
+  padding: 10px;
+}
+form {
+  margin-top: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 25%;
+  padding: 5px;
+  margin-bottom: 15px;
+  background-color: #e7eff7;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+button:hover {
+  background-color: #0056b3;
+}
+#costDisplay {
+  margin-top: 20px;
+}
+#monthlyCost {
+  font-size: 20px;
+  font-weight: bold;
+}
+.redBackground {
+  background-color: red;
+}
+.normalBackground {
+  background-color: aquamarine;
+}
+table {
+  width: 75%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+th,
+tb {
+  border: 2px solid #6a7b93;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #edebeb;
+}
+.deleteBtn {
+  background-color: darkred;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.deleteBtn:hover {
+  background-color: red;
 }
