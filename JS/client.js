@@ -40,12 +40,12 @@ $(document).ready(function () {
     // Update total monthly cost on the DOM
     monthlyCostDisplay.text(`$${totalMonthlyCost.toFixed(2)}`);
     //used toFixed(2) to round to nearest 2 decimal places
-
+    //console.log("totalMonthlyCost before deletion:", totalMonthlyCost);
     // Applying red background if monthly total greater than 20,000
     if (totalMonthlyCost > 20000) {
       monthlyCostDisplay.addClass("redBackground");
     } else {
-      monthlyCostDisplay.addClass("normalBackground");
+      monthlyCostDisplay.removeClass("redBackground");
       //trying to remove the red background, but would have to add it to the delete button i think
     }
   });
@@ -67,9 +67,10 @@ $(document).ready(function () {
 
     row.remove(); // removes entire table row
     //return confirm('Are you sure?') tried adding a confirm, but couldn't get it
-    // to update monthly cost after confirming
+    // to update monthly cost after confirming, got too complicated and left out for now
 
     // Update total monthly cost on the DOM
-    monthlyCostDisplay.text(`$${totalMonthlyCost.toFixed(2)}`);
+    monthlyCostDisplay.text(`$${totalMonthlyCost}`);
+    //console.log("annualSalary:", annualSalary);
   });
 });
