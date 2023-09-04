@@ -50,6 +50,7 @@ button:hover {
 }
 .redBackground {
   background-color: red;
+  max-width: max-content;
 }
 .normalBackground {
   background-color: aquamarine;
