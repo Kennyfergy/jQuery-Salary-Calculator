@@ -10,7 +10,9 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 
 ## Screen Shot
 
-Include one or two screen shots of your project here (optional). Remove if unused.
+<img width="1546" alt="Screenshot 2023-09-04 at 12 23 34 AM" src="https://github.com/Kennyfergy/jQuery-Salary-Calculator<img width="1539" alt="Screenshot 2023-09-04 at 12 25 00 AM" src="https://github.com/Kennyfergy/jQuery-Salary-Calculator/assets/121765690/16d53a10-72f9-448b-91ee-6b665a60255c">
+/assets/121765690/4ac6e246-c5b3-4cca-a549-7bb97b7294d5">
+
 
 ### Prerequisites
 
